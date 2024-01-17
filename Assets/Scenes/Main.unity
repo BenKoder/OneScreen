@@ -238,7 +238,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &297583077
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -431,6 +431,7 @@ GameObject:
   - component: {fileID: 893437414}
   - component: {fileID: 893437413}
   - component: {fileID: 893437412}
+  - component: {fileID: 893437416}
   m_Layer: 0
   m_Name: Game
   m_TagString: Untagged
@@ -445,7 +446,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 893437411}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 17231c90e1e234d4e80210f5fdfd81cb, type: 3}
   m_Name: 
@@ -534,6 +535,28 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &893437416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 893437411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a0fd37016924ea4baabef0ebe1a0602, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cube: {fileID: 2863530761742407541, guid: 40441b9067198ec479e468b3bf7845e1, type: 3}
+  mapWidth: 32
+  mapHeight: 32
+  xOrg: 0
+  yOrg: 0
+  xOffset: -16
+  yOffset: -16
+  xScale: 3
+  yScale: 3
+  zScale: 3
 --- !u!1 &970735918
 GameObject:
   m_ObjectHideFlags: 0
@@ -552,7 +575,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &970735919
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -649,7 +672,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &1035181951
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -840,7 +863,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &1381844691
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1081,7 +1104,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &1729568061
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1430,7 +1453,7 @@ Camera:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_RenderingPath: -1
+  m_RenderingPath: 1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
   m_TargetEye: 3
