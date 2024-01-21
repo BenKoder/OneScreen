@@ -21,6 +21,9 @@ MonoBehaviour:
     Projects:
     - ProjectPath: Needle/CollaborativeSandbox
     BuilderScene: 
+  - Path: Assets/Scenes/CollaborativeSandboxTemplate.unity
+    Projects: []
+    BuilderScene: 
   Projects:
   - ProjectPath: Needle/SampleScene
   - ProjectPath: Needle/CollaborativeSandbox
